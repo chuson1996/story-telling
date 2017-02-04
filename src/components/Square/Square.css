@@ -1,0 +1,9 @@
+.rectangle .bigRectangle{
+	transition: stroke-dashoffset 1s;
+	stroke-dasharray: 515;
+	stroke-dashoffset: 515;
+}
+
+.rectangle.hover .bigRectangle {
+  stroke-dashoffset: 0;
+}
